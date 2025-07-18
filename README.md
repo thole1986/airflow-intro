@@ -10,8 +10,6 @@ Instead of hardcoding sensitive configurations like `FERNET_KEY` in `docker-comp
 Run inside terminal: python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 to get key.
 
-Create a file named `.env` at the root of your project with the following content:
-
 ### ✅ Step 2: Create a `.env` file
 
 Create a file named `.env` at the root of your project with the following content and add key:
